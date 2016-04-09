@@ -45,15 +45,22 @@ h1:hover {
 }
 
 .background-image {
+    background: rgba(169,202,185,1);
+    background: -moz-linear-gradient(left, rgba(169,202,185,1) 0%, rgba(169,202,185,1) 12%, rgba(169,202,185,1) 25%, rgba(144,201,192,1) 78%, rgba(144,201,192,1) 89%, rgba(144,201,192,1) 99%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(169,202,185,1)), color-stop(12%, rgba(169,202,185,1)), color-stop(25%, rgba(169,202,185,1)), color-stop(78%, rgba(144,201,192,1)), color-stop(89%, rgba(144,201,192,1)), color-stop(99%, rgba(144,201,192,1)));
+    background: -webkit-linear-gradient(left, rgba(169,202,185,1) 0%, rgba(169,202,185,1) 12%, rgba(169,202,185,1) 25%, rgba(144,201,192,1) 78%, rgba(144,201,192,1) 89%, rgba(144,201,192,1) 99%);
+    background: -o-linear-gradient(left, rgba(169,202,185,1) 0%, rgba(169,202,185,1) 12%, rgba(169,202,185,1) 25%, rgba(144,201,192,1) 78%, rgba(144,201,192,1) 89%, rgba(144,201,192,1) 99%);
+    background: -ms-linear-gradient(left, rgba(169,202,185,1) 0%, rgba(169,202,185,1) 12%, rgba(169,202,185,1) 25%, rgba(144,201,192,1) 78%, rgba(144,201,192,1) 89%, rgba(144,201,192,1) 99%);
+    background: linear-gradient(to right, rgba(169,202,185,1) 0%, rgba(169,202,185,1) 12%, rgba(169,202,185,1) 25%, rgba(144,201,192,1) 78%, rgba(144,201,192,1) 89%, rgba(144,201,192,1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9cab9', endColorstr='#90c9c0', GradientType=1 )
+}
 
 
-    //* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a6c9b9+28,91c8bf+75 */
-background: rgb(166,201,185); /* Old browsers */
-    background: -moz-linear-gradient(left,  rgba(166,201,185,1) 28%, rgba(145,200,191,1) 75%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(166,201,185,1) 28%,rgba(145,200,191,1) 75%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(166,201,185,1) 28%,rgba(145,200,191,1) 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6c9b9', endColorstr='#91c8bf',GradientType=1 ); /* IE6-9 */
-
+    .ls-image {
+        width:400px;
+        position: fixed;
+        bottom:0;
+        opacity: 1;
 
 }
 

@@ -36,6 +36,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .ls-image {
+        width: 300px;
+    }
 
 }
 
@@ -53,11 +56,33 @@
     h3 {
         font-size: 30px
     }
+    .ls-image {
+        width: 200px;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
+    h1 {
+        font-size: 30px
+    }
+
+    h2 {
+        font-size:25px;
+    }
+
+    h3 {
+        font-size: 20px
+    }
+    .ls-image {
+        width: 200px;
+    }
+
+    .ls-image {
+        width: 100px;
+    }
 }
 
 /* Custom, iPhone Retina */
