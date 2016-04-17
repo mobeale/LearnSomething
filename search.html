@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="">
+
+
+     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/styles.css" rel="stylesheet" media="all">
+        <link href="css/hover.css" rel="stylesheet" media="all">
+        <link href="css/mediaqueries.css" rel="stylesheet" media="all">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+
+
+</head>
+
+<body>
+<main ng-app="WikiApp" ng-controller="MainCtrl">
+
+
+    <!-- Search  -->
+    <div id="">Search</a><br/>
+
+
+
+        <form ng-submit="search()">
+            <input type="text" ng-model="searchTxt"/>
+        </form>
+
+    </div>
+
+    <!-- Results -->
+    <div>
+            <ul>
+                <a ng-href="{{result.page}}" target="_blank" ng-repeat="result in results">
+                <li>
+                    <h1>{{result.title}}</h1>
+                    <p style="font-family:Montserrat">{{result.body}}</p>
+                </li>
+            </a>
+            </ul>
+        </div>
+
+
+</main>
+
+
+
+
+<script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.2/angular-animate.min.js'></script>
+
+<script src="js/index.js"></script>
+
+
+
+
+</body>
+</html>

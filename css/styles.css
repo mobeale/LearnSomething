@@ -20,6 +20,10 @@ h3 {
     font-size: 30px
 }
 
+h4 {
+    font-size: 20px;
+}
+
 h5 {
     text-align: center;
 }
@@ -36,6 +40,10 @@ a {
 .bulb:hover {
 
 
+}
+
+.ls-heading {
+    margin-top: 10%
 }
 
 h1:hover {
