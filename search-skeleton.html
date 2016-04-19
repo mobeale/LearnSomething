@@ -82,15 +82,15 @@
 <div class="container-fluid" style="margin-top: 50px;">
     <div class="row" ng-repeat="result in results">
         <div class="col-sm-10 col-sm-offset-1">
-            <div>
-                <ul>
+            <div class="" ng-repeat="result in results">
 
-                        <li>
-                            <h1 style="font-family:'Indie Flower'">{{result.title}}</h1>
+
+
+                            <h2 style="font-family:'Indie Flower'; text-align:center">{{result.title}}</h2>
                             <a ng-href="{{result.page}}" target="_blank" ><p style="font-family:Montserrat">{{result.body}}</p></a>
-                        </li>
 
-                </ul>
+
+
             </div>
         </div>
     </div>
